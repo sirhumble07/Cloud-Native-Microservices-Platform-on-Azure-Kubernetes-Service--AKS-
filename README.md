@@ -70,9 +70,3 @@ cloud-native-microservices-platform/
 ```
 
 ---
-
-## ⭐ **Next Steps**  
-Would you like an **architecture diagram** to complement this README?  
-If you need **additional automation scripts** for CI/CD, I can refine those as well! 🚀  
-
-Let me know how else I can enhance this for you! 🎯
