@@ -1,0 +1,91 @@
+# 🚀 Cloud-Native Microservices Platform (IaC & DevOps)
+
+## 📌 Overview
+This project builds a **production-ready, container-first microservices platform** using **Azure Kubernetes Service (AKS)** with **comprehensive automation, security, and observability**. It leverages **Infrastructure-as-Code (IaC) and DevOps** principles for scalable, resilient deployments.
+
+---
+
+## 🔹 Architecture Components
+- **Azure Kubernetes Service (AKS)** – Container orchestration
+- **Azure Container Registry (ACR)** – Centralized image management
+- **Azure Virtual Network (VNet) & Subnets** – Secure networking
+- **Azure Key Vault** – Secret management
+- **Azure Application Gateway** – Ingress and load balancing
+- **Azure Monitor & Log Analytics** – Performance tracking
+- **GitHub Actions / Azure DevOps** – CI/CD automation
+
+---
+
+## 🚀 Deployment Steps
+### **1️⃣ Infrastructure Setup**
+- ✅ Create **Resource Group** in Azure
+- ✅ Deploy **Azure Kubernetes Service (AKS)** with auto-scaling
+- ✅ Configure **Virtual Network (VNet) and subnets**
+
+### **2️⃣ Containerization & Deployment**
+- ✅ Build **Docker images** for each microservice
+- ✅ Push images to **Azure Container Registry (ACR)**
+- ✅ Deploy microservices to **AKS** using Helm or Kubernetes manifests
+
+### **3️⃣ Security & Access Control**
+- ✅ Enable **Azure AD integration** for authentication
+- ✅ Apply **RBAC roles** to Kubernetes namespaces
+- ✅ Configure **Azure Key Vault** for secret management
+
+### **4️⃣ Observability & Monitoring**
+- ✅ Enable **Azure Monitor** for logs and metrics
+- ✅ Deploy **Prometheus & Grafana** for Kubernetes monitoring
+- ✅ Set up **Azure Log Analytics Workspace**
+
+### **5️⃣ CI/CD Pipeline Setup**
+- ✅ Configure **GitHub Actions or Azure DevOps** for automated deployments
+- ✅ Define Helm/Kustomize templates for Kubernetes resources
+- ✅ Implement **Infrastructure-as-Code (IaC) using Bicep**
+
+### **6️⃣ Performance Optimization & Scaling**
+- ✅ Enable **Horizontal Pod Autoscaling (HPA)**
+- ✅ Optimize database performance and caching
+- ✅ Deploy **Azure Redis Cache** for acceleration
+
+---
+
+## 📁 Repository Structure
+```
+cloud-native-microservices-platform/
+│── architecture-diagram/
+│   └── aks-microservices-diagram.png
+│── infra-setup/
+│   ├── 01-resource-group.md
+│   ├── 02-aks-cluster.md
+│   ├── 03-vnet-subnet.md
+│── containers/
+│   ├── Dockerfile
+│   ├── microservice1/
+│   ├── microservice2/
+│── deployment/
+│   ├── helm-charts/
+│   ├── kustomize/
+│── security/
+│   ├── keyvault.md
+│   ├── rbac-config.md
+│── monitoring/
+│   ├── azure-monitor.md
+│   ├── grafana-prometheus.md
+│── automation/
+│   ├── ci-cd-pipeline.md
+│   ├── github-actions/
+│── docs/
+│   ├── README.md
+│   ├── steps.md
+│   ├── notion-template.md
+│   ├── bicep-template.bicep
+```
+
+---
+
+## 📄 References
+🔗 [Azure Kubernetes Service Docs](https://learn.microsoft.com/en-us/azure/aks/)  
+🔗 [Azure Container Registry Guide](https://learn.microsoft.com/en-us/azure/container-registry/)  
+🔗 [GitHub Actions for AKS Deployment](https://learn.microsoft.com/en-us/azure/devops/pipelines/ecosystems/kubernetes)  
+
+---
